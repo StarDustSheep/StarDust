@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/114859111/217919440-9fefe541-9217-4d23-97c9-3185a3ac4fc8.png)
 
 ### 多级标题
-在多级标题前添加了图标以在使用时好做区分。
+在多级标题前添加了图标以在使用时好做区分。<br>
 ![image](https://user-images.githubusercontent.com/114859111/217919920-f291baab-f905-4444-b9af-df0cc23b9d7b.png)
 
 ### 按键和行内代码。
