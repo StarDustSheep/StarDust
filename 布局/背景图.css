@@ -1,0 +1,65 @@
+/* ----以整个界面为边界设置背景图片，但只显示在始质或者说编辑区域---- */
+/* 全屏动漫背景图 */
+html {
+    content: "";
+    width: 100%;
+    height: 100%;
+    /* filter: blur(8px); */
+    background-image: url("../pic/bg1.jpg") !important;
+    background-size: cover;
+    position: absolute;
+    background-position: center top;
+    background-size: cover;
+    z-index: -100;
+}
+
+
+body {
+    background-color: rgba(18, 62, 82, 0.295) !important;
+    background-image: linear-gradient(to top, #0f375400 0%, #186d88c7 100%) !important;
+}
+
+/* 让始质\编辑区底色透明，以实现一种蒙板的效果 */
+.protyle {
+    background-color: #0f3754ad !important;
+}
+
+
+/* 设置输入容器底色透明以让背景图片可以显示，但除了标签面板输入容器 */
+.layout__center.fn__flex.fn__flex-1>div:nth-child(1)>div>div.layout-tab-container.fn__flex-1 {
+    background-color: transparent !important;
+}
+
+/* 由于上面一段代码会让文档树和大纲透明，这里重新设置文档树和大纲底色 */
+.fn__flex-1.fn__flex-column.file-tree {
+    /* background-color: #fef9f9; */
+}
+
+
+/* 修改中间区域阴影层，给底下的图片叠一层色降低对比度*/
+.fn__flex-1.protyle {
+    background-color: #d2d2d211 !important;
+}
+
+.protyle-content {
+    background-color: #0c1b2566 !important;
+}
+
+.sy__backlink .backlinkList, .sy__backlink .backlinkMList {
+    background-color: #0c1b2566!important;
+}
+
+
+.file-tree.sy__outline > .fn__flex-1 {
+    background-color: #184f6378;
+}
+.layout__tab--active .graph__svg, .layout__tab--active .inbox__list{
+    background-color: #184f6378;
+}
+.sy__bookmark > .fn__flex-1 {
+    /* filter: contrast(0.95); */
+    background-color: #184f6378;
+}
+.sy__tag > .fn__flex-1 {
+    background-color: #184f6378;
+}

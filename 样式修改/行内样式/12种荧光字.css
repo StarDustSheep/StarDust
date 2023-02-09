@@ -1,0 +1,207 @@
+/* ——————————————————文字发光/荧光字———————————————— */
+
+/* 为所有字色设置相同的字体、字重、透明度 */
+[style*="color: var(--b3-font-color"] {
+    font-family:var(--b3-font-family-strong);
+    font-weight: 500;
+    font-size: 1em;
+    opacity: 90% !important;
+    vertical-align:inherit;
+    text-shadow: none;
+}
+
+
+/* 红色系 字色 重要等级低 */
+[style*="color: var(--b3-font-color1);"] {
+    color:#d49c9c !important;
+    text-shadow:none;
+}
+
+/* 红色系 字色 重要等级中 */
+[style*="color: var(--b3-font-color2);"] {
+    /* opacity: 88%; */
+    color:#f8d3d5 !important;
+    text-shadow:    0px 0px 2px hsl(345, 88%, 46%, 0.8),
+                    0px 0px 3px hsla(342, 88%, 53%, 0.8);
+}
+
+/* 红色系 字色 重要等级高 */
+[style*="color: var(--b3-font-color3);"] {
+    color:#f8d3d5 !important;
+    text-shadow:    0px 0px 2px hsl(345, 88%, 46%),
+                    0px 0px 3px hsl(342, 88%, 53%),
+                    1px 1px 4px hsla(0, 100%, 73%, 0.829);
+}
+
+
+/* 绿色系 字色 重要等级低 */
+[style*="color: var(--b3-font-color4);"] {
+    color:hsl(107, 38%, 72%) !important;
+    text-shadow:none;
+}
+
+/* 绿色系 字色 重要等级中 */
+[style*="color: var(--b3-font-color5);"] {
+    /* opacity: 88%; */
+    color:hsl(107, 74%, 90%) !important;
+    text-shadow:    0px 0px 2px hsla(85, 90%, 34%, 0.8),
+                    0px 0px 3px hsla(90, 88%, 53%, 0.3);
+}
+
+/* 绿色系 字色 重要等级高 */
+[style*="color: var(--b3-font-color6);"] {
+    color:hsl(89, 100%, 93%) !important;
+    text-shadow:    0px 0px 0.1em hsl(91, 100%, 33%),
+                    0px 0px 0.2em hsla(88, 96%, 37%, 0.8),
+                    0px 0px 0.3em hsla(88, 100%, 39%, 0.3);
+}
+
+/* 蓝色系 字色 重要程度低  */
+[style*="color: var(--b3-font-color7);"] {
+    color:hsl(197, 38%, 72%) !important;
+    text-shadow:none;
+}
+/* 蓝色系 字色 重要程度中  */
+[style*="color: var(--b3-font-color8);"] {
+    opacity: 88%;
+    color:hsl(197, 100%, 94%) !important;
+    text-shadow:    0px 0px 2px hsla(200, 90%, 34%, 1),
+                    0px 0px 3px hsla(206, 88%, 53%, 1);
+}
+
+/* 蓝色系 字色 重要程度高  */
+[style*="color: var(--b3-font-color9);"] {
+    color:hsl(197, 100%, 94%) !important;
+    text-shadow:    0px 0px 1px hsl(206, 100%, 38%),
+                    0px 0px 2px hsl(206, 100%, 38%),
+                    0px 0px 4px hsl(206, 100%, 50%),
+                    0px 0px 6px hsla(206, 100%, 65%, 0.85);
+}
+
+/* 紫色系 字色 重要等级低 */
+[style*="color: var(--b3-font-color10);"] {
+    color:hsl(265, 38%, 80%) !important;
+}
+
+/* 紫色系 字色 重要等级中 */
+[style*="color: var(--b3-font-color11);"] {
+    /* opacity: 88%; */
+    color:hsl(265, 74%, 90%) !important;
+    text-shadow:    0px 0px 2px rgb(86, 0, 208),
+                    0px 0px 3px hsla(265, 100%, 50%, 0.6);
+}
+
+
+/* 紫色系 字色 重要等级高 */
+[style*="color: var(--b3-font-color12);"] {
+    color:hsl(270, 100%, 97%) !important;
+    text-shadow:    0px 0px 0.1em hsl(260, 100%, 39%),
+                    0px 0px 0.2em hsla(265, 100%, 69%, 0.95),
+                    0px 0px 0.3em hsla(265, 100%, 79%, 0.7);
+}
+
+[style*="color: var(--b3-font-color13);"] {
+    color:#ffffff !important;
+}
+
+
+
+
+/* 工具栏面板 */
+.b3-color__square[data-type="color"]{
+    box-shadow: none;
+}
+
+
+
+.b3-color__square[style*="color:var(--b3-font-color1)"]{
+    background-color: #d49c9c;
+}
+
+.b3-color__square[style*="color:var(--b3-font-color2)"]{
+    color: transparent !important;
+    background-color:#f8d3d5 !important;
+    box-shadow:    0px 0px 2px hsl(345, 88%, 46%, 0.8),
+                    0px 0px 3px hsla(342, 88%, 53%, 0.8);
+}
+.b3-color__square[style*="color:var(--b3-font-color3)"]{
+    color: transparent !important;
+    background-color:#f8d3d5 !important;
+    box-shadow:    0px 0px 2px hsl(345, 88%, 46%),
+                    0px 0px 3px hsl(342, 88%, 53%),
+                    1px 1px 4px hsla(0, 100%, 73%, 0.829);
+}
+.b3-color__square[style*="color:var(--b3-font-color4)"]{
+    background-color: var(--b3-font-color4);
+}
+
+.b3-color__square[style*="color:var(--b3-font-color5)"]{
+    color: transparent !important;
+    background-color:hsl(107, 74%, 90%) !important;
+    box-shadow:    0px 0px 2px hsla(85, 90%, 34%, 0.8),
+                    0px 0px 3px hsla(90, 88%, 53%, 0.3);
+}
+.b3-color__square[style*="color:var(--b3-font-color6)"]{
+    color: transparent !important;
+    background-color:hsl(89, 100%, 93%) !important;
+    box-shadow:    0px 0px 0.1em hsl(91, 100%, 33%),
+                    0px 0px 0.2em hsla(88, 96%, 37%, 0.8),
+                    0px 0px 0.3em hsla(88, 100%, 39%, 0.3);
+}
+
+
+.b3-color__square[style*="color:var(--b3-font-color7)"]{
+    color: transparent !important;
+    background-color:hsl(197, 38%, 72%) !important;
+    box-shadow:none !important;
+}
+
+
+.b3-color__square[style*="color:var(--b3-font-color8)"]{
+    color: transparent !important;
+    background-color:hsl(197, 100%, 94%) !important;
+    box-shadow:    0px 0px 2px hsla(200, 90%, 34%, 1),
+                    0px 0px 3px hsla(206, 88%, 53%, 1);
+}
+
+.b3-color__square[style*="color:var(--b3-font-color9)"]{
+    color: transparent !important;
+    background-color:hsl(197, 100%, 94%) !important;
+    box-shadow:    0px 0px 1px hsl(206, 100%, 38%),
+                    0px 0px 2px hsl(206, 100%, 38%),
+                    0px 0px 4px hsl(206, 100%, 50%),
+                    0px 0px 6px hsla(206, 100%, 65%, 0.85);
+}
+
+.b3-color__square[style*="color:var(--b3-font-color10)"]{
+    color: transparent !important;
+    background-color:hsl(265, 38%, 80%) !important;
+    box-shadow:none !important;
+}
+
+.b3-color__square[style*="color:var(--b3-font-color11)"]{
+    color: transparent !important;
+    background-color:hsl(265, 74%, 90%) !important;
+    box-shadow:    0px 0px 2px rgb(86, 0, 208),
+                    0px 0px 3px hsla(265, 100%, 50%, 0.6);
+
+}
+
+.b3-color__square[style*="color:var(--b3-font-color12)"]{
+    color: transparent !important;
+    background-color:hsl(270, 100%, 97%) !important;
+    box-shadow:    0px 0px 0.1em hsl(260, 100%, 39%),
+                    0px 0px 0.2em hsla(265, 100%, 69%, 0.95),
+                    0px 0px 0.3em hsla(265, 100%, 79%, 0.7);
+}
+
+.b3-color__square[style*="color:var(--b3-font-color13)"]{
+    color: transparent !important;
+    background-color:  transparent !important;
+    box-shadow: inset 0 0 1px white;
+}
+
+
+.b3-color__square[data-type="color"]:hover {
+    scale: 120%;
+}

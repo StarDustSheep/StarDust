@@ -1,0 +1,15 @@
+/* 为图标icon设置投影 */
+.protyle-background__icon{
+    filter:drop-shadow(2px 2px 0px rgb(2, 20, 39));
+}
+
+/*文档emj图标*/
+.protyle-background__icon:hover {
+    animation: breathLamp 300ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+/* 鼠标悬浮于题头图标上时放大，以让用户意识到鼠标移动到了热区 */
+.protyle-background__icon:hover{
+    transform: scale(1.05);
+}

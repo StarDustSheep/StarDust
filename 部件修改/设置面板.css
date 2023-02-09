@@ -1,0 +1,101 @@
+/* 设置面板搜索框 底色和内阴影，以容易让用户发现这有个搜索框 */
+.b3-text-field.b3-text-field--text.fn__block.b3-form__icon-input{
+    background-color: #4d667f;
+    box-shadow: inset 0px 5px 7px 1px #1a2b36c4;
+    border-bottom: 3px solid #1f506d;
+}
+.b3-form__icon.search__header > .b3-form__icon-icon{
+    color: #8dd3d7ba;
+}
+
+/* 为设置面板设置边框，圆角需注意 */
+.b3-dialog__container{
+    border: 3px solid #196683;
+    border-radius: 7px;
+}
+
+/* 增强设置面板关闭按钮的可见性 */
+.b3-dialog__container .b3-dialog__close{
+    right: -41px;
+    height: 20px;
+    width: 20px;
+    background-color: #196683;
+    padding: 9px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* 集市中 主题名 样式 */
+#configBazaarTheme .fn__flex-center.fn__ellipsis{
+    color: #55d0d0 !important;
+    font-size: 110%;
+    text-shadow:0 0 3px #55d0d090;
+}
+/* 集市中下载数 字色 */
+#configBazaarTheme .fn__flex-center{
+    color: #87a06f !important;
+}
+
+/* 选择框内的底色 */
+.b3-text-field,.b3-select{
+    background-color: #192d3a;
+}
+
+/* 暂时没啥用 */
+.b3-text-field.fn__flex-center.fn__size200{
+    box-shadow: goldenrod !important;
+}
+
+/* 修改集市中主题卡片的背景色以使其更加显眼，好从背景中区分开来 */
+.b3-card{
+    background-color: #28526b;
+}
+
+/* 设置面板中左侧菜单底色 */
+.config__panel>.b3-tab-bar{
+    background-color: #10354a;
+}
+
+/* 降低在菜单中选择大分类的高亮影响对右侧内容的阅读的不利影响 */
+.config__panel .b3-tab-bar.b3-list.b3-list--background .b3-list-item--focus:not(.dragover):not(.dragover__top):not(.dragover__bottom){
+    background-color: #2b6e8394;
+}
+
+/* 修改菜单面板左侧列表项项目  */
+.config__panel .b3-list-item {
+    margin: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 0px;
+}
+
+/* 在菜单面板中选择大分类时……懒得写了 */
+.config__panel .b3-list--background .b3-list-item:hover:not(.b3-list-item--focus){
+    background-color: #a3bcc738 !important;
+    margin: 0;
+    border-radius: 0px;
+}
+
+
+/* 设置面板主界面太暗了，调亮点 */
+.config__panel .b3-tab-container{
+    background-color: #244154;
+}
+
+
+
+
+
+
+
+
+
+.b3-text-field.b3-text-field--text.fn__block.b3-form__icon-input{
+    /* position: absolute; */
+}
+.b3-text-field.b3-text-field--text.fn__block.b3-form__icon-input::before{
+    content: "在这里搜索";
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}

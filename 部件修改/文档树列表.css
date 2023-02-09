@@ -1,0 +1,85 @@
+/* .fn__flex-1 .b3-list--background .b3-list-item{
+    margin:0px
+} */
+
+
+/* .sy__file .b3-list--background .b3-list-item:hover {
+    background-color: #509ab24a;
+    background-color: transparent;
+    border-radius: 4px;
+} */
+
+/* 给笔记本设置背景色，好让其中的文档树更容易识别*/
+.sy__file .b3-list.b3-list--background {
+    border-radius: 5px;
+    margin: 6px 9px 6px 9px;
+    border: solid 1.5px #16283a;
+    background-color: #0c384770;
+    overflow: hidden;
+}
+/* 让激活了的笔记本中的文档树中的项目和两遍不会有空隙 */
+/* .b3-list-item--focus{
+    margin: 0px;
+    box-shadow: inset 3em 0px 40px -20px #00ddffde;
+} */
+
+/* 修改文档树中激活项的背景色 */
+.layout__tab--active .b3-list--background .b3-list-item--focus:not(.dragover):not(.dragover__top):not(.dragover__bottom) {
+    background-color: #7fcfff61;
+}
+
+
+
+
+/* .sy__file .fn__flex-1 .b3-list--background .b3-list-item:not(.b3-list--background>:first-child){
+    margin-top: 4px;
+    margin-bottom: 4px;
+} */
+
+
+/* 修改文档树中所有列表项  取消圆角以避免相邻项目都高亮时不和谐的边缘 增加项高以视觉上容易区分 */
+.file-tree .fn__flex-1 .b3-list--background .b3-list-item{
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+    line-height: 2.2em;
+}
+
+/* 无子文档的文档前面添加圆点符号 */
+.b3-list-item.b3-list-item--hide-action .b3-list-item__toggle.fn__hidden::before {
+    content: "◦";
+    font-size: 2em;
+    position: absolute;
+    visibility: visible;
+    margin-bottom: 2px;
+    color: #acb7b78a;
+}
+
+
+
+
+
+/* 多层文档树 */
+/* .sy__file .b3-list.b3-list--background {
+    box-shadow: inset 0 0 2px #0a1d2d,inset 0px 0px 4px #182e40;
+} */
+/* 3级文档背景色 */
+/* .file-tree .b3-list.b3-list--background > ul > li+ul{
+    background-color: hsl(197deg 63% 20%);
+    box-shadow: inset 0px 0px 5px #001b29d6;
+}
+
+.file-tree .b3-list.b3-list--background > ul > li+ul > li+ul {
+    background-color: hsl(197deg 62% 18%);
+    box-shadow: inset 0px 0px 5px #001b29d6;
+}
+
+.file-tree .b3-list.b3-list--background > ul > li+ul > li+ul > li+ul  {
+    background-color: hsl(197deg 60% 16%);
+    box-shadow: inset 0px 0px 5px #001b29d6;
+}
+
+.file-tree .b3-list.b3-list--background > ul > li+ul > li+ul > li+ul > li+ul {
+    background-color: hsl(197deg 59% 14%);
+    box-shadow: inset 0px 0px 5px #061f2f, inset 17px 0px 45px 0px #061f2f, inset -5px 0px 5px #061f2f;
+} */

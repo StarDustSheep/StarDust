@@ -1,0 +1,27 @@
+/* 为标题加上霓虹色 */
+/* .protyle-title__input {
+    color: #ffffff;
+    font-family: var(--b3-font-family-title);
+    margin: 12px 0 8px 0;
+    padding: 0em 4px;
+    background-color: transparent !important;
+    border-bottom: 1px solid;
+    text-shadow: 2px 0px 2px rgba(0, 119, 255, 0.87),
+    3px 0px 4px rgb(50, 189, 253),
+    -2px 0px 2px hsla(347, 100%, 54%, 0.716);
+} */
+
+/* 用个鲜艳的颜色当作标题 再加个底边框以和正文分隔 */
+.protyle-title__input{
+    color: rgb(92, 255, 255);
+    border-bottom: 1px solid #74b0b0;
+    /* text-shadow: 2px 0px 2px rgba(0, 247, 255, 0.87); */
+}
+
+/* 不需要单独设置背景色，直接透明，露出下面一层的底色就行 */
+.protyle-title__input{
+    background: transparent;
+}
+
+
+

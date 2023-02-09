@@ -1,0 +1,26 @@
+/* 此文件中代码必须要在“斜杆唤出菜单”之前 */
+
+.protyle-hint.b3-list.b3-list--background .b3-list-item.b3-list-item--two.b3-list-item--focus{
+    background-color: #2d8592 !important;
+}
+
+
+.protyle-hint.b3-list.b3-list--background{
+    background-color:#1b3241;
+    border: solid 3px #236f8c;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.protyle-hint button.b3-list-item.b3-list-item--two{
+    border-bottom: 1px solid rgb(89, 117, 146);
+    border-right: 1px solid rgb(89, 117, 146);
+    background-color: #2d495c;
+    border-radius: 0px;
+    margin: 0px !important;
+    padding: 0.2em 0.8em;
+    width:100% !important;
+}
+.protyle-hint button.b3-list-item:hover{
+    background-color: #386574 !important;
+}

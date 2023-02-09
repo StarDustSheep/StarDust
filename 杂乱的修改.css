@@ -1,0 +1,135 @@
+/* 在骨架上先添加一层深色底色，然后再添加一层半透明渐变色 */
+/* 这里决定了界面的整体外观颜色，非常重要 */
+/* 我将大部分元素的背景色设置成了透明，所以直接修改body的背景色就能调整整个软件界面颜色 */
+body {
+    background-color: #1f364cd4;
+    background-image: linear-gradient(to top, #0f4c7d76 0%, #186e88d0 100%);
+}
+
+/* 如果觉得渐变背景色有些影响观看，可以换成这个纯色界面 */
+/* body {
+    background-color: #196683;
+} */
+
+/* 让一系列界面背景变透明，以能看到最“底层”的body的背景 */
+.layout-tab-container {
+    background: transparent;
+}
+
+.status {
+    background: transparent;
+}
+
+.dock {
+    background: transparent;
+}
+
+
+/* 设置文档的编辑区背景颜色，视觉面积很大，很重要 */
+.protyle {
+    background-color: #1f3849d4;
+}
+
+
+/* 思源笔记界面最顶上那条工具栏 其名toolbar */
+/* 将其背景色设置为透明，以“露”底下的底层背景，如果开了背景图则是星空背景 */
+.toolbar {
+    background: transparent !important;
+}
+
+
+/* 设置编辑器插入光标颜色为亮蓝色 */
+.protyle-content {
+    caret-color: #18f7ff;
+}
+
+/* 右下角统计数据，将数字修改为渐变色 */
+.status__counter {
+    color: transparent;
+    background-image: url('pic/统计.png');
+    -webkit-background-clip: text;
+}
+
+
+/* 为列表项图标icon设置投影 */
+/* 似乎不加也没什么关系 */
+.b3-list-item__icon svg,
+.b3-list-item__icon img {
+    filter: drop-shadow(2px 2px 0px rgb(2, 27, 39));
+}
+
+
+/* 当打开多个编辑页面时，中间用来调整宽度的控件增加一定宽度，视觉上更好定位，使用起来更加轻松点 */
+.fn__flex.fn__flex-1>.fn__flex+.layout__resize--lr.layout__resize {
+    width: 1em;
+}
+
+
+/* 区域之间用来调节比例时的提示线，默认颜色太不显眼了，提高点亮度以让用户容易找到 */
+.layout__resize:hover:after {
+    background-color: #55ffff4f;
+}
+
+/* 鼠标悬浮于图标之上时，背景色高亮，以提示用户可点击交互 */
+/* 这里的声明目前作用于修改题头图和题头图标属性的那几个按钮 */
+.protyle-icon:hover {
+    background-color: #ccf6ff;
+}
+
+/* 鼠标悬浮元素时会跳出来的提示气泡，修改其背景色以 */
+/* #tooltip {
+    background-color: #50cfd3;
+    color: white !important;
+    filter: none !important;
+} */
+
+
+
+
+/* 修改文本输入框的边框线条颜色，原先的太亮了 */
+/* 最开始是发现设置面板中的文本输入框边线太亮 */
+.b3-text-field,
+.pcr-app .pcr-interaction .pcr-result {
+    box-shadow: inset 0 0 0 1px #80a8d15c;
+}
+
+
+/* 修改鼠标悬浮在块图标上时，字色为亮眼的白色 */
+/* 这是折叠按钮图标 */
+.protyle-gutters [data-type="fold"]:hover>svg {
+    color: white;
+}
+
+/* 这是拖拽块图标 */
+.protyle-gutters [draggable="true"]:hover>svg {
+    color: white;
+}
+
+/* 修改块图标成圆角矩形 */
+.protyle-gutters [draggable="true"],
+.protyle-gutters [data-type="fold"] {
+    padding: 0.05em 0.4em 0.05em;
+    border-radius: 10%;
+}
+
+/* 块图标悬浮高亮 */
+/* 改为显眼的亮蓝色 */
+.protyle-gutters [draggable="true"]:hover,
+.protyle-gutters [data-type="fold"]:hover {
+    background-color: #06cfe9a3;
+}
+
+
+/* 折叠按钮 */
+/* 修改标题折叠按钮的外观，默认是圆点，为了契合软件整体外观将圆角改小 */
+/* 在超级块中可能有距离问题 */
+.protyle-wysiwyg div[fold="1"][data-type=NodeHeading]:before {
+    border-radius: 10%;
+    background-color: #3e6279db;
+}
+
+
+/* 去除思源不知道什么时候在页签栏下加的对我而言无用的边线 */
+.layout-tab-bar {
+    border-bottom: none;
+}

@@ -1,0 +1,14 @@
+/* 面包屑 */
+.protyle-breadcrumb{
+    display: flex;
+    padding: 0 8px;
+    background-color: #447a94;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-bottom: 0.4em solid #186480;
+    box-shadow: inset 0px 0px 5px #0c161eaa, inset 0px 40px 0px 5px #172e4773;
+}
+/* 面包屑中的文字应该小一点，因为这里经常要显示很长的不换行文本 */
+.protyle-breadcrumb__bar{
+    font-size: 90%;
+}

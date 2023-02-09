@@ -1,0 +1,27 @@
+/* 此文件中代码必须要在“块引用搜索”之后 */
+.hint--menu.protyle-hint.b3-list.b3-list--background {
+    column-count: 4;
+    column-width: 20px !important;
+    column-gap: 5px;
+    min-width: 38vw !important;
+    max-height: 800px !important;
+    border: 0.2em solid #196683;
+    padding: 5px;
+    background-color: #1c3643;
+    border-radius: 4px;
+}
+
+.protyle-hint.b3-list.b3-list--background.hint--menu .b3-list-item.b3-list-item--two{
+    border-bottom: 2px solid #1c3643;
+    border-right: 1px solid #1c3643;
+    background-color: #375061;
+    border-radius: 0px;
+    margin: 0px !important;
+    padding: 0.2em 0.8em;
+    width: 100% !important;
+}
+
+
+.protyle-hint.b3-list.b3-list--background.hint--menu .b3-menu__separator{
+    height: 0px;
+}

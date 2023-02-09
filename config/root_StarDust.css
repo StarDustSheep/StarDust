@@ -1,0 +1,55 @@
+:root {
+    --b3-theme-primary: #47dbdf;
+    --b3-theme-surface: #1d465e;
+    --b3-theme-background: #1b3444;
+    --b3-theme-background-light:#2ee2e564;
+    --b3-list-hover: #2b6e83;
+    --b3-theme-on-surface-light: rgb(142 195 200 / 66%);
+    --b3-list-icon-hover:#2dafc5;
+
+    /* 字色 */
+    --b3-theme-on-background:rgb(224 224 219 / 83%);
+    --b3-menu-background: #196582;
+    --b3-theme-on-surface: #a4b8cc;
+    --b3-toolbar-color:rgb(142 195 200 / 66%);
+
+    /* 思源默认的块引字色是紫色，不好看，换一个 */
+    --b3-protyle-inline-blockref-color: #a4e862;
+
+
+    --b3-card-error-color: hsl(4deg 48% 71%);
+    --b3-card-error-background: hsl(0deg 25% 58% / 36%);
+
+    --b3-card-warning-color: hsl(56deg 34% 67%);
+    --b3-card-warning-background: hsl(31deg 20% 50% / 36%);
+
+    --b3-card-success-color:hsl(80deg 34% 67%);
+    --b3-card-success-background: hsl(83deg 25% 58% / 36%);
+
+    --b3-card-info-color:hsl(178deg 34% 67%);
+    --b3-card-info-background: hsl(192deg 25% 58% / 36%);
+
+    
+    /* 自定义字色 */
+    --b3-font-background5: #79858e;
+    --b3-font-background6: #0c6288;
+    --b3-font-background7: #726b4a;
+    --b3-font-background8: #805150;
+    --b3-font-background9: #7c365e;
+    --b3-font-background10: #6d4b80;
+    --b3-font-background11: #4c6f3d;
+    --b3-font-background12: #805d4c;
+    --b3-font-background13: #909ba0;
+    
+
+    --b3-tooltips-color:#218299;
+    --b3-toolbar-hover:#2dafc5;
+    /* 行级内标记背景色 */
+    --b3-protyle-inline-mark-background: rgb(116 164 152);
+
+    /* 字体 */
+    /* --b3-font-family:思源黑体; */
+    --b3-font-family-button:"Consolas",微软雅黑,"三极柴园简体";    /*给按键kbd用的字体  */
+    --b3-font-family-code: "Consolas",微软雅黑,"TsangerYuMo W02", mononoki, Consolas, "Liberation Mono", Menlo, Courier, monospace, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
+
+}

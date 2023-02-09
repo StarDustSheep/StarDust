@@ -1,0 +1,57 @@
+/* 蓝色系 字色 重要程度中  */
+[style="color: var(--b3-font-color6);"] {
+    opacity: 88%;
+    color:hsl(197, 100%, 94%) !important;
+    text-shadow:    0px 0px 2px hsla(200, 90%, 34%, 1),
+                    0px 0px 3px hsla(206, 88%, 53%, 1);
+}
+
+[style="color: var(--b3-font-color7);"] {
+    opacity: 96%;
+    text-shadow: 1px 0px 2px hsl(33deg 93% 32%), 0px 0px 3px hsl(37deg 44% 50%);
+    color: #ffdf9e !important;
+}
+
+[style="color: var(--b3-font-color8);"] {
+    opacity: 97%;
+    color: #ff9299 !important;
+    text-shadow: 0px 0px 2px hsl(345deg 88% 46%), 0px 0px 4px hsl(342deg 92% 62% / 80%);
+}
+
+[style="color: var(--b3-font-color9);"] {
+    opacity: 88%;
+    color: #ffbce0!important;
+    text-shadow: 0px 0px 2px hsl(325deg 81% 41%), 0px 0px 3px hsl(308deg 88% 53%);
+}
+
+
+[style="color: var(--b3-font-color10);"] {
+    opacity: 88%;
+    color: #f1bdff !important;
+    text-shadow: 0px 0px 2px hsl(287deg 86% 43%), 0px 0px 3px hsl(284deg 100% 64%);
+}
+
+[style="color: var(--b3-font-color11);"] {
+    opacity: 88%;
+    color: #ccec84 !important;
+    text-shadow: 0px 0px 2px hsl(91deg 100% 30%), 0px 0px 3px hsl(81deg 100% 31%);
+}
+
+[style="color: var(--b3-font-color12);"] {
+    opacity: 88%;
+    color: #ffbc80 !important;
+    text-shadow: 0px 0px 2px hsl(25deg 100% 31%), 0px 0px 3px hsl(15deg 100% 60%);
+}
+
+[style="color: var(--b3-font-color13);"] {
+    color: transparent !important;
+}
+
+[style="background-color: var(--b3-font-background13);"] {
+    color: transparent !important;
+}
+
+span[style="background-color: var(--b3-font-background13);"]:hover {
+    color: white!important;
+}
+

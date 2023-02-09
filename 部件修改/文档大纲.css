@@ -1,0 +1,49 @@
+.file-tree.sy__outline > .fn__flex-1{
+    background-color: #184f63;
+    /* filter: contrast(0.95); */
+    /* filter: brightness(0.9); */
+    margin-bottom: 0px !important;
+    /* box-shadow: inset -2px 0px 3px #0a2236ad, inset -6px 0px 7px 5px #0a22365c; */
+}
+
+
+.file-tree span.b3-list-item__text{
+    color: hsla(206, 21%, 81%, 0.65);
+}
+
+
+.b3-list-item__graphic.popover__block{
+    padding:3px 4px 3px 4px;
+    border-radius: 3px;
+    filter: brightness(0.8);
+    filter: contrast(0.7);
+    opacity: 80%;
+    scale: 80%;
+}
+
+
+[data-subtype="h1"] .b3-list-item__graphic.popover__block{
+    background-color: rgb(54, 226, 229);
+    color: rgb(57, 113, 115);
+}
+[data-subtype="h2"] .b3-list-item__graphic.popover__block{
+    background-color: hsl(184, 55%, 75%);
+    color: hsl(175, 27%, 35%);
+}
+[data-subtype="h3"] .b3-list-item__graphic.popover__block{
+    background-color: hsl(136, 29%, 90%);
+    color: hsl(136, 20%, 36%);
+}
+[data-subtype="h4"] .b3-list-item__graphic.popover__block{
+    background-color: hsl(51, 71%, 67%);
+    color: hsl(51, 71%, 25%);
+}
+[data-subtype="h5"] .b3-list-item__graphic.popover__block{
+    background-color: hsl(38, 100%, 50%);
+    color: hsl(38, 100%, 24%);
+}
+[data-subtype="h6"] .b3-list-item__graphic.popover__block{
+    background-color: hsl(0, 66%, 61%);
+    color: hsl(0, 66%, 25%);
+}
+

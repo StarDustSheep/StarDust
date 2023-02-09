@@ -1,0 +1,21 @@
+/* 开关样式，主要用在设置界面中 */
+/* 使用较小的圆角，这样和软件界面整体方方正正的线条更加协调 */
+.b3-switch:after,.b3-switch:checked:after {
+    border-radius: 20%;
+}
+.b3-switch {
+    border-radius: 10%;
+}
+
+/* 开关凹槽内部 */
+.b3-switch {
+    background-color: #1b2f3c;
+}
+/* 已经打开了的开关 */
+.b3-switch:checked {
+    background-color: #3a8585;
+}
+/* 关闭，还未打开的开关 */
+.b3-switch:after {
+    background-color: #687475;
+}

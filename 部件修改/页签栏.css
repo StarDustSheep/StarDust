@@ -1,0 +1,87 @@
+/* 整个页签栏的样式 */
+.layout-tab-bar {
+    font-size: 110%;
+    list-style: none;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    background-color: #196683;
+}
+
+
+/* 页签栏中打开且处于显示状态的页面 */
+.layout-tab-bar .item--focus{
+    /* box-shadow: inset 0 2px 0 0 #06d0e9 !important; */
+    box-sizing: border-box;
+    background-color: #218299 !important;
+    box-shadow: inset 1.5px 0px 0px 0 #0e232ec7, inset 0 2px 0 0 #06d0e9 !important;
+}
+
+/* 在当前正在查看/编辑的页签下面添加蓝条以告知用户当前编辑的是哪个页面 */
+.layout__wnd--active .layout-tab-bar .item--focus{
+    box-shadow: inset 1.5px 0px 0px 0 #0e232ec7, inset 0 2px 0 0 #06d0e9 ,inset 0 -3px 0 0 #09a9ff !important;
+    /* box-shadow: inset 1.5px 0px 0px 0 #0e232ec7, inset -1.5px 0px 0px 0 #0e232ec7; */
+}
+
+/* 将当前正在查看/编辑的页签 的文字改为发光样式 以提高显眼度 以易于视觉上和其他页签区分 */
+.layout__wnd--active .layout-tab-bar .item--focus>.item__text {
+    color: hsl(188deg 100% 77%);
+    text-shadow: 0 0 9px #00cee1;
+    font-weight: 500;
+    /* font-family: "微软雅黑" !important; */
+}
+
+
+/* 隐藏思源默认的打开状态的页签的底部的蓝条 */
+.layout-tab-bar .item--focus:after{
+    height: 0px;
+}
+
+
+/* 页签栏中项目 使用内部阴影替代border，防止影响排版 */
+.layout-tab-bar .item {
+    box-shadow: inset 1.5px 0px 0px 0 #0e232ec7;
+}
+
+/* 修改页签最小宽度，防止其过窄 */
+.item__text{
+    min-width: 6em;
+    padding-left: 16px !important;
+}
+
+
+/* 当前编辑中文档页签关闭按钮底色 */
+/* .item--focus .item__close{
+    background-color: hsl(192deg 36% 48%);
+} */
+
+/* 鼠标划过页签时，显示其关闭按钮的区间 */
+/* 修改页签关闭按钮为红色色块*/
+.fn__flex.layout-tab-bar .item:hover .item__close{
+    background-color: #b1839c;
+}
+/* 鼠标悬浮于关闭按钮上时，高亮按钮提示用户 */
+.fn__flex.layout-tab-bar .item:hover .item__close:hover{
+    background-color: #e27ba1;
+}
+
+/* 设置页签关闭按钮的形状和位置 */
+.layout-tab-bar .item__close {
+    padding: 7px 0px 9px 0;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-right: 3px;
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+}
+
+/* 隐藏当前编辑文档页签中的关闭图标 */
+.fn__flex.layout-tab-bar .item__close svg{
+    visibility: hidden;
+}
+
+/* 鼠标划过项目时，对其高亮 */
+.item:hover:not(.item--readonly){
+    background-color: #2ee2e564 !important;
+}

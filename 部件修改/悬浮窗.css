@@ -1,0 +1,8 @@
+.block__popover.block__popover--move.block__popover--open {
+    border: 0.4em solid #196683;
+}
+
+.block__popover.block__popover--move.block__popover--open .protyle-breadcrumb{
+    border-bottom: 0.4em solid #186480;
+    border-top: 0.4em solid #186480;
+}

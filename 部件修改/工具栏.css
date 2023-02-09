@@ -1,0 +1,88 @@
+
+/* 修改选中文字后浮出的工具条的外观 */
+div.protyle-toolbar,div.protyle-util{
+    border: solid 3px #236f8c;
+    background-color: #2d495c;
+    border-radius: 4px;
+    padding: 1px 8px;
+}
+
+
+.protyle-toolbar .protyle-toolbar__item.b3-tooltips.b3-tooltips__n:hover{
+    background-color: rgba(96, 196, 209, 0.417);
+}
+
+
+/* 自定义颜色面板 */
+.b3-color__square{
+    box-shadow: none;
+}
+
+
+.b3-color__square[style="color:var(--b3-font-color1)"]{
+    background-color: var(--b3-font-color1);
+}
+.b3-color__square[style="color:var(--b3-font-color2)"]{
+    background-color: var(--b3-font-color2);
+}
+.b3-color__square[style="color:var(--b3-font-color3)"]{
+    background-color: var(--b3-font-color3);
+}
+.b3-color__square[style="color:var(--b3-font-color4)"]{
+    background-color: var(--b3-font-color4);
+}
+.b3-color__square[style="color:var(--b3-font-color5)"]{
+    background-color: var(--b3-font-color5);
+}
+.b3-color__square[style="color:var(--b3-font-color6)"]{
+    color: transparent !important;
+    background-color: hsl(197deg 100% 87%) !important;
+    box-shadow: 0px 0px 2px hsla(200, 90%, 34%, 1),
+    0px 0px 3px hsla(206, 88%, 53%, 1);
+}
+
+.b3-color__square[style="color:var(--b3-font-color7)"]{
+    color: transparent !important;
+    background-color: #ffdf9e !important;
+    box-shadow: 1px 0px 2px hsl(33deg 93% 32%), 0px 0px 3px hsl(37deg 44% 50%);
+}
+
+.b3-color__square[style="color:var(--b3-font-color8)"]{
+    color: transparent !important;
+    background-color: #ff9299 !important;
+    box-shadow: 0px 0px 2px hsl(345deg 88% 46%), 0px 0px 4px hsl(342deg 92% 62% / 80%);
+}
+
+.b3-color__square[style="color:var(--b3-font-color9)"]{
+    color: transparent !important;
+    background-color: #ffbce0!important;
+    box-shadow: 0px 0px 2px hsl(325deg 81% 41%), 0px 0px 3px hsl(308deg 88% 53%);
+}
+
+.b3-color__square[style="color:var(--b3-font-color10)"]{
+    color: transparent !important;
+    background-color: #f1bdff !important;
+    box-shadow: 0px 0px 2px hsl(287deg 86% 43%), 0px 0px 3px hsl(284deg 100% 64%);
+}
+
+.b3-color__square[style="color:var(--b3-font-color11)"]{
+    color: transparent !important;
+    background-color: #ccec84 !important;
+    box-shadow: 0px 0px 2px hsl(91deg 100% 30%), 0px 0px 3px hsl(81deg 100% 31%);
+}
+
+.b3-color__square[style="color:var(--b3-font-color12)"]{
+    color: transparent !important;
+    background-color: #ffbc80 !important;
+    box-shadow: 0px 0px 2px hsl(25deg 100% 31%), 0px 0px 3px hsl(15deg 100% 60%);
+}
+
+.b3-color__square[style="color:var(--b3-font-color13)"]{
+    color: transparent !important;
+    background-color:  transparent !important;
+    box-shadow: inset 0 0 1px white;
+}
+
+
+
+

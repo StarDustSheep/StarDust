@@ -1,0 +1,34 @@
+/* 到顶和到底的箭头按钮 默认是用的边框线颜色 */
+.protyle-scroll__down, .protyle-scroll__up{
+    color: #2197aa;
+}
+/* 块滚动条 默认情况下有一部分阴影被遮挡了 在此修复该问题 */
+.protyle-scroll__bar.b3-tooltips.b3-tooltips__s{
+    overflow: visible;
+}
+
+/* 块滚动条提示气泡方块区域 */
+.b3-tooltips::after{
+    background-color: #218299;
+}
+/* 块滚动条提示气泡小三角区域 位置总调整不对，直接隐藏*/
+.b3-tooltips__s::before, .b3-tooltips__se::before, .b3-tooltips__sw::before{
+    border-bottom-color:transparent;
+}
+
+
+
+/* 强行掰正块滚动条提示气泡 */
+.protyle-scroll__bar.b3-tooltips.b3-tooltips__s::after{
+    transform: rotate(270deg) !important;
+}
+/* 将气泡移动到正确的位置 */
+/* .b3-tooltips__s::after, .b3-tooltips__se::after, .b3-tooltips__sw::after{
+    top: 4.5em;
+    right: 4.5em;
+} */
+/* 去除鱼蠢的旋转动画 */
+.b3-tooltips::after, .b3-tooltips::before{
+    transition: none;
+}
+

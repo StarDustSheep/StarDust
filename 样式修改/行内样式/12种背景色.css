@@ -1,0 +1,148 @@
+/*** ———————————————修改设置了底色/背景色的文字部分的样式————————————————— ***/
+
+/* 为不同底色/背景色区域设置一部分相同的样式 */
+
+[style*="background-color: var(--b3-font-background"] {
+    /* padding: 0px 2px 1px 2px !important; */
+    /* margin: 3px 3px 0px 2px !important;
+    border-radius: 5px !important; */
+    font-size: 0.95em !important;
+    vertical-align:1% !important;
+    text-shadow:none !important;
+}
+
+/* 针对不同底色，修改其字色和底色 */
+strong[style*="background-color: var(--b3-font-background1);"] {
+    background-color: hsl(358deg 51% 72%) !important;
+    color: hsl(0deg 28% 38%);
+    opacity: 80%;
+}
+
+strong[style*="background-color: var(--b3-font-background2);"] {
+    background-color: #ff8d8d !important;
+    color: #882c37;
+    opacity: 90%;
+}
+
+strong[style*="background-color: var(--b3-font-background3);"] {
+    background-color: hsl(0deg 97% 69%) !important;
+    color: #62061b;
+}
+
+strong[style*="background-color: var(--b3-font-background4);"] {
+    background-color: #b5cf94 !important;
+    color: #596d41;
+    opacity: 80%;
+}
+
+strong[style*="background-color: var(--b3-font-background5);"] {
+    background-color: hsl(86deg 64% 70%) !important;
+    color: #40641f;
+    opacity: 90%;
+}
+
+strong[style*="background-color: var(--b3-font-background6);"] {
+    background-color: #b8f15b !important;
+    color: #036323;
+}
+
+strong[style*="background-color: var(--b3-font-background7);"] {
+    color: rgb(55 89 109);
+    background-color: rgb(139 194 215) !important;
+    opacity: 80%;
+}
+
+strong[style*="background-color: var(--b3-font-background8);"] {
+    color: rgb(32 84 100);
+    background-color: rgb(123, 201, 217) !important;
+    opacity: 90%;
+}
+
+strong[style*="background-color: var(--b3-font-background9);"] {
+    color: rgb(4 65 128);
+    background-color: rgb(98 206 255) !important;
+}
+
+strong[style*="background-color: var(--b3-font-background10);"] {
+    background-color: hsl(264deg 68% 73%) !important;
+    color: hsl(281deg 39% 33%);
+    opacity: 80%;
+}
+
+strong[style*="background-color: var(--b3-font-background11);"] {
+    background-color: hsl(274deg 57% 69%) !important;
+    color: hsl(282deg 43% 30%);
+    opacity: 90%;
+}
+
+strong[style*="background-color: var(--b3-font-background12);"] {
+    background-color: rgb(190, 106, 255) !important;
+    color: hsl(282deg 92% 19%);
+}
+
+/* 设置第13个背景色为挖空\填空效果 */
+strong[style*="background-color: var(--b3-font-background13);"] {
+    color: transparent !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid gray !important;
+    border-radius: var(--b3-border-radius-none) !important;
+    /* padding: 2px 0px !important; */
+    font-weight: 400 !important;
+    transition: color 0.1s ease-in-out;
+}
+/* 当鼠标放在隐藏文字上方时显示文字 */
+strong[style*="background-color: var(--b3-font-background13);"]:hover {
+    color: inherit !important;
+}
+
+
+
+
+.b3-color__square[data-type="backgroundColor"]:hover{
+    scale: 120%;
+    border: none;
+}
+
+
+.b3-color__square[style*="background-color:var(--b3-font-background1)"]{
+    background-color: hsl(358deg 51% 72%) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background2)"]{
+    background-color: #ff8d8d !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background3)"]{
+    background-color: hsl(0deg 97% 69%) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background4)"]{
+    background-color: #b5cf94 !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background5)"]{
+    background-color: hsl(86deg 64% 70%) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background6)"]{
+    background-color: hsl(86deg 64% 70%) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background7)"]{
+    background-color: rgb(139 194 215) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background8)"]{
+    background-color: rgb(123, 201, 217) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background9)"]{
+    background-color: rgb(98 206 255) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background10)"]{
+    background-color: hsl(264deg 68% 73%) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background11)"]{
+    background-color: hsl(274deg 57% 69%) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background12)"]{
+    background-color: hsl(358deg 51% 72%) !important;
+}
+.b3-color__square[style*="background-color:var(--b3-font-background12)"]{
+    background-color: rgb(190, 106, 255) !important;
+}
+/* .b3-color__square[background-color="var(--b3-font-background13)"]{
+    background-color: hsl(358deg 51% 72%);
+} */

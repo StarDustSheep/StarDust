@@ -1,0 +1,13 @@
+/* 此处选择器来源于思源默认 */
+.protyle-wysiwyg [data-node-id] span[data-type~=block-ref], .protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]{
+    color: #bae392;
+    opacity: 0.90;
+    transition: var(--b3-transition);
+    text-shadow: 0 0 1px #d0ec51, 0 0 10px #75ffc291;
+    border-bottom: 0px solid #bae392;
+}
+
+/* 悬浮状态下显示底部高亮线 */
+.protyle-wysiwyg [data-node-id] span[data-type~=block-ref]:hover, .protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]:hover{
+    border-bottom: 1px solid #bae392;
+}

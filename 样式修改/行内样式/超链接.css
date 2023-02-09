@@ -1,0 +1,15 @@
+/* 此处选择器来源于思源默认 */
+.protyle-wysiwyg [data-node-id] span[data-type~=a]{
+    color: #8ae4eb;
+    opacity: 0.90;
+    transition: var(--b3-transition);
+    text-shadow: 0 0 1px #5191ec, 0 0 10px #75c2ff91;
+    border-bottom: 1px solid #5d9dab;
+}
+
+/* 悬浮状态下显示底部高亮线 */
+.protyle-wysiwyg [data-node-id] span[data-type~=a]:hover{
+    color: #bbf3ff;
+    text-shadow: 0 0 3px #63bbff, 0 0 8px #5793e5d1, 0 0 10px #00b6ff;
+    border-bottom: 1px solid #a2eeff;
+}

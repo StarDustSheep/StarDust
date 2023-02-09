@@ -1,0 +1,24 @@
+/* 当进入聚焦状态时，在标题处显示出状态提示 */
+.protyle-breadcrumb:has(.block__icon.block__icon--show.ft__smaller.fn__flex-center:not(.fn__none))+.protyle-content .protyle-title.protyle-wysiwyg--attr .protyle-title__input::after {
+    content: "聚焦状态";
+    font-size: 0.8em;
+    color: #6c959e;
+    position: relative;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: .2rem;
+    padding: 0em .4em 0em 0.3em;
+}
+/* 增强聚焦退出按钮的可见性 */
+.block__icon.block__icon--show.ft__smaller.fn__flex-center{
+    background: #5d8999;
+    color: #cee3e5;
+}
+/* 增强聚焦退出按钮的可见性 */
+.block__icon.block__icon--show.ft__smaller.fn__flex-center:hover{
+    background: rgb(127, 196, 213);
+    color: #ffffff;
+    text-shadow: 0 0 5px #006d85;
+}
+
+

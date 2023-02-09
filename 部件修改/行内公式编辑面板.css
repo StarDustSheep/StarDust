@@ -1,0 +1,21 @@
+/* 取消会产生不和谐缝隙的上半部分圆角 */
+.b3-text-field.b3-text-field--text.fn__block{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* 输入TEX代码的地方*/
+.b3-text-field.b3-text-field--text.fn__block{
+    background-color: #223746;
+    color: snow;
+}
+
+/* 提示气泡小三角颜色由边框控制 */
+.protyle-util .b3-tooltips:hover::before{
+    border-top-color:#218299;
+}
+
+/* 加粗边框 */
+.protyle-util{
+    border: 2px solid var(--b3-theme-surface-lighter);
+}

@@ -1,0 +1,52 @@
+/* 提及面板标记文本样式 */
+.protyle-wysiwyg [data-node-id] span[data-type~=search-mark]{
+    background-color: rgb(166 201 196 / 42%);
+    /* color: #1e4053; */
+}
+
+
+.sy__backlink .protyle-wysiwyg,.backlinkMList .protyle-wysiwyg{
+    /* padding: 0px 0px 8px 0px !important; */
+}
+
+.sy__backlink .b3-list-item{
+    background-color: #196683;
+    border: 1px solid black;
+    border-top: none;
+}
+.sy__backlink .b3-list.b3-list--background > :first-child.b3-list-item{
+    border: 1px solid black;
+}
+
+.protyle-wysiwyg [data-node-id].render-node[data-type=NodeBlockQueryEmbed]{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+/* 反链面板中面包屑 */
+.sy__backlink .protyle-wysiwyg .protyle-breadcrumb__bar{
+    font-size: 80%;
+    /* background-color: hsl(202deg 39% 29%); */
+    padding-left: 6px;
+    min-height: 30px;
+}
+
+
+
+
+.sy__backlink .protyle-wysiwyg .protyle-breadcrumb__bar .protyle-breadcrumb__item--active{
+    color: #88aeb9;
+    background-color: #3f73847a;
+}
+
+.sy__backlink .protyle-wysiwyg .protyle-breadcrumb__item{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #bac4c5c7;
+}
+
+.sy__backlink .backlinkList,.sy__backlink .backlinkMList{
+    background-color: #1e4053;
+}
