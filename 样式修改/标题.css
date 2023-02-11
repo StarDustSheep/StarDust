@@ -1,10 +1,7 @@
 /* 荧光标题 */
 .b3-typography .h1, .b3-typography h1, .b3-typography .h2, .b3-typography h2, .b3-typography .h3, .b3-typography h3, .b3-typography .h4, .b3-typography h4, .b3-typography .h5, .b3-typography h5, .b3-typography .h6, .b3-typography h6, .protyle-wysiwyg .h1, .protyle-wysiwyg h1, .protyle-wysiwyg .h2, .protyle-wysiwyg h2, .protyle-wysiwyg .h3, .protyle-wysiwyg h3, .protyle-wysiwyg .h4, .protyle-wysiwyg h4, .protyle-wysiwyg .h5, .protyle-wysiwyg h5, .protyle-wysiwyg .h6, .protyle-wysiwyg h6 {
     color: #ffffff;
-    text-shadow: 0 0 3px #0ed1c7b2,
-                0 0 4px #0ed1c7b2,
-                0 0 10px #39ccc548,
-                0 0 14px #61c4c109;
+    text-shadow:0 0 3px #0ed1c7b0, 0 0 4px #0ed1c7a8, 0 0 8px #39ccc548, 0 0 14px #61c4c109;
     letter-spacing: 0.1em;
     font-family: "思源黑体" !important;
 }
