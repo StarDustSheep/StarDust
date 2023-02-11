@@ -133,3 +133,9 @@ body {
 .layout-tab-bar {
     border-bottom: none;
 }
+
+/* 闪卡中带有标记样式的文本，不显示文字阴影 */
+/* 不给none掉的话在闪卡复习时会虽然字色透明了但会有文字阴影 */
+.b3-dialog__cardblock--hide span[data-type*="mark"]{
+    text-shadow: none !important;
+}
