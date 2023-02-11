@@ -1,0 +1,15 @@
+/* kbd 按键/按钮的样式 */
+.protyle-wysiwyg span[data-type~=kbd] {
+    font-size: 0.8em;
+    font-family: var(--b3-font-family-button);
+    margin: 0.1rem 0.3rem 0.2rem 0.35rem;
+    border-radius: 3px;
+    color: rgb(181 241 129 / 68%);
+    background-color: hsl(185deg 17% 24%);
+    padding: 3px 5px 3px 5px;
+    text-shadow: 0px -1px 5px #8ef52f99;
+    font-weight: 300;
+    border: none;
+    box-shadow: inset 0px 2px 1px #6e82869e, inset 0px -3px 1px 0px #1f2a2bd1, 0px 2px 3px 1px #030a0f;
+    vertical-align: 1px;
+}
