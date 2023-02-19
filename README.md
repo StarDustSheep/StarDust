@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="https://github.com/StarDustSheep/StarDust/blob/main/preview.png" width="300px"></br>
-<p>这是一款<a href="https://github.com/siyuan-note/siyuan">思源笔记</a>的风格化夜间主题<br>This is a styled stylized theme for <a href="https://github.com/siyuan-note/siyuan">SiYuan-note</a></p>
+<p>这是一款<a href="https://github.com/siyuan-note/siyuan">思源笔记</a>的风格化夜间主题<br>This is a stylized theme for <a href="https://github.com/siyuan-note/siyuan">SiYuan-note</a></p>
 </div>
 
 # StarDust
