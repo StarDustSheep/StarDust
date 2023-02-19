@@ -50,10 +50,8 @@
 
 /* 绿色系 字色 重要等级高 */
 [style*="color: var(--b3-font-color6);"] {
-    color:hsl(89, 100%, 93%) !important;
-    text-shadow:    0px 0px 0.1em hsl(91, 100%, 33%),
-                    0px 0px 0.2em hsla(88, 96%, 37%, 0.8),
-                    0px 0px 0.3em hsla(88, 100%, 39%, 0.3);
+    color: hsl(89, 100%, 93%) !important;
+    text-shadow: 0px 0px 0.1em hsl(91deg 100% 24%), 0px 0px 0.2em hsl(88deg 100% 31% / 80%), 0px 0px 0.3em hsl(88deg 100% 45% / 71%);
 }
 
 /* 蓝色系 字色 重要程度低  */
@@ -71,11 +69,8 @@
 
 /* 蓝色系 字色 重要程度高  */
 [style*="color: var(--b3-font-color9);"] {
-    color:hsl(197, 100%, 94%) !important;
-    text-shadow:    0px 0px 1px hsl(206, 100%, 38%),
-                    0px 0px 2px hsl(206, 100%, 38%),
-                    0px 0px 4px hsl(206, 100%, 50%),
-                    0px 0px 6px hsla(206, 100%, 65%, 0.85);
+    color: hsl(197, 100%, 94%) !important;
+    text-shadow: 0px 0px 1px hsl(206deg 100% 38%), 0px 0px 2px hsl(206deg 100% 38%), 0px 0px 4px hsl(206deg 100% 50%), 0px 0px 6px hsl(206deg 100% 65% / 59%);
 }
 
 /* 紫色系 字色 重要等级低 */

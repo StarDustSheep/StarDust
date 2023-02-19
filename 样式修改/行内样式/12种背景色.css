@@ -11,89 +11,72 @@
     text-shadow:none !important;
 }
 
-.b3-dialog__container .fn__flex-column.b3-dialog__content span[data-type*="mark"]{
-    text-shadow: none !important;
-}
+
 
 /* 针对不同底色，修改其字色和底色 */
 [style*="background-color: var(--b3-font-background1);"] {
-    background-color: hsl(358deg 51% 72%) !important;
-    color: hsl(0deg 28% 38%);
-    opacity: 80%;
+    background-color: hsl(358deg 51% 72% / 55%) !important;
 }
 
 [style*="background-color: var(--b3-font-background2);"] {
-    background-color: #ff8d8d !important;
-    color: #882c37;
-    opacity: 90%;
+    background-color: #ff8d8da8 !important;
 }
 
 [style*="background-color: var(--b3-font-background3);"] {
-    background-color: hsl(0deg 97% 69%) !important;
-    color: #62061b;
+    background-color: hsl(0deg 54% 62% / 92%) !important;
+    color: #f0dde4;
 }
 
 [style*="background-color: var(--b3-font-background4);"] {
-    background-color: #b5cf94 !important;
-    color: #596d41;
-    opacity: 80%;
+    background-color: hsl(86deg 57% 70% / 54%) !important;
 }
 
 [style*="background-color: var(--b3-font-background5);"] {
-    background-color: hsl(86deg 64% 70%) !important;
-    color: #40641f;
-    opacity: 90%;
+    background-color: rgb(185 227 130 / 65%) !important;
+    color: #dae2b9;
 }
 
 [style*="background-color: var(--b3-font-background6);"] {
-    background-color: #b8f15b !important;
-    color: #036323;
+    background-color: hwb(83deg 24% 33%) !important;
+    color: hsl(78deg 51% 89%);
 }
 
 [style*="background-color: var(--b3-font-background7);"] {
-    color: rgb(55 89 109);
-    background-color: rgb(139 194 215) !important;
-    opacity: 80%;
+    background-color: rgb(139 194 215 / 65%) !important;
 }
 
 [style*="background-color: var(--b3-font-background8);"] {
-    color: rgb(32 84 100);
-    background-color: rgb(123, 201, 217) !important;
-    opacity: 90%;
+    background-color: hsl(190deg 56% 65% / 70%) !important;
 }
 
 [style*="background-color: var(--b3-font-background9);"] {
-    color: rgb(4 65 128);
-    background-color: rgb(98 206 255) !important;
+    color: hsl(211deg 93% 92%);
+    background-color: rgb(97 171 204) !important;
 }
 
 [style*="background-color: var(--b3-font-background10);"] {
-    background-color: hsl(264deg 68% 73%) !important;
-    color: hsl(281deg 39% 33%);
-    opacity: 80%;
+    background-color: hsl(264deg 46% 73% / 60%) !important;
 }
 
 [style*="background-color: var(--b3-font-background11);"] {
-    background-color: hsl(274deg 57% 69%) !important;
-    color: hsl(282deg 43% 30%);
-    opacity: 90%;
+    background-color: hsl(264deg 58% 66% / 75%) !important;
 }
 
 [style*="background-color: var(--b3-font-background12);"] {
-    background-color: rgb(190, 106, 255) !important;
-    color: hsl(282deg 92% 19%);
+    background-color: hsl(264deg 53% 65%) !important;
+    color: hsl(299deg 37% 90%);
 }
 
 /* 设置第13个背景色为挖空\填空效果 */
-[style*="background-color: var(--b3-font-background13);"] {
+/* [style*="background-color: var(--b3-font-background13);"] {
     color: transparent !important;
     background-color: transparent !important;
     border-bottom: 2px solid gray !important;
     border-radius: var(--b3-border-radius-none) !important;
-    /* padding: 2px 0px !important; */
     font-weight: 400 !important;
     transition: color 0.1s ease-in-out;
-}
+} */
+
 /* 当鼠标放在隐藏文字上方时显示文字 */
 [style*="background-color: var(--b3-font-background13);"]:hover {
     color: inherit !important;
