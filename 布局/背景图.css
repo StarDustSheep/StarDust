@@ -5,7 +5,7 @@ html {
     width: 100%;
     height: 100%;
     /* filter: blur(8px); */
-    background-image: url("../pic/bg1.jpg") !important;
+    background-image: url("../pic/Akrae Nebula by Starkiteckt Designs.jpg") !important;
     background-size: cover;
     position: absolute;
     background-position: center top;
@@ -42,13 +42,18 @@ body {
 }
 
 .protyle-content {
-    background-color: #0c1b2566 !important;
+    background-color: #122b3a96 !important;
+    backdrop-filter: blur(10px);
 }
 
 .sy__backlink .backlinkList, .sy__backlink .backlinkMList {
     background-color: #0c1b2566!important;
 }
 
+.sy__backlink .protyle-content,.sy__backlink .protyle{
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+}
 
 .file-tree.sy__outline > .fn__flex-1 {
     background-color: #184f6378;
@@ -62,4 +67,12 @@ body {
 }
 .sy__tag > .fn__flex-1 {
     background-color: #184f6378;
+}
+
+
+.sy__backlink .b3-list-item {
+    background-color: #1966837a;
+}
+.layout__tab--active .b3-list--background .b3-list-item--focus:not(.dragover):not(.dragover__top):not(.dragover__bottom){
+    background-color: #7ff5ff47;
 }
