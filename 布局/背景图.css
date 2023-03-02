@@ -15,13 +15,13 @@ html {
 
 
 body {
-    background-color: rgba(18, 62, 82, 0.295) !important;
-    background-image: linear-gradient(to top, #0f375400 0%, #186d88c7 100%) !important;
+    background-color: rgb(18 62 82 / 61%) !important;
+    background-image: linear-gradient(to top, #4e93c42b 0%, #12617bc7 100%) !important;
 }
 
 /* 让始质\编辑区底色透明，以实现一种蒙板的效果 */
 .protyle {
-    background-color: #0f3754ad !important;
+    /* background-color: #2d5572ad !important; */
 }
 
 
@@ -38,22 +38,22 @@ body {
 
 /* 修改中间区域阴影层，给底下的图片叠一层色降低对比度*/
 .fn__flex-1.protyle {
-    background-color: #d2d2d211 !important;
+    /* background-color: #203543!important; */
 }
 
-.protyle-content {
+/* .protyle-content {
     background-color: #122b3a96 !important;
     backdrop-filter: blur(10px);
-}
+} */
 
 .sy__backlink .backlinkList, .sy__backlink .backlinkMList {
-    background-color: #0c1b2566!important;
+    /* background-color: #0c1b2566!important; */
 }
 
-.sy__backlink .protyle-content,.sy__backlink .protyle{
+/* .sy__backlink .protyle-content,.sy__backlink .protyle{
     background-color: transparent !important;
     backdrop-filter: blur(5px);
-}
+} */
 
 .file-tree.sy__outline > .fn__flex-1 {
     background-color: #184f6378;
@@ -75,4 +75,13 @@ body {
 }
 .layout__tab--active .b3-list--background .b3-list-item--focus:not(.dragover):not(.dragover__top):not(.dragover__bottom){
     background-color: #7ff5ff47;
+}
+
+
+.layout-tab-bar{
+    background-color: transparent;
+}
+
+.layout__empty{
+    background-color: #1b3444c4;
 }
