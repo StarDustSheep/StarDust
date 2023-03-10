@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://github.com/StarDustSheep/StarDust/blob/main/preview.png" width="300px"></br>
+<img src="https://user-images.githubusercontent.com/114859111/224228577-081f6715-cf07-400e-a06a-c166ecafba63.png" width="300px"></br>
+
 <p>这是一款<a href="https://github.com/siyuan-note/siyuan">思源笔记</a>的风格化夜间主题<br>This is a stylized theme for <a href="https://github.com/siyuan-note/siyuan">SiYuan-note</a></p>
 </div>
 
@@ -27,4 +28,5 @@
 ### 超链接、块引用、超级块
 因为默认的紫色在暗色背景上不太显眼，修改块引用颜色为绿色。周围带有荧光。超级块设置卡片样式。
 ![image](https://user-images.githubusercontent.com/114859111/217920394-1592ebab-1ae7-4ea9-9dd7-fbc5356843c0.png)
+  
 
