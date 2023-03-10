@@ -103,40 +103,40 @@
 
 
 /* 工具栏面板 */
-.b3-color__square[data-type="color"]{
+.color__square[data-type="color"]{
     box-shadow: none;
 }
 
 
 
-.b3-color__square[style*="color:var(--b3-font-color1)"]{
+.color__square[style*="color:var(--b3-font-color1)"]{
     background-color: #d49c9c;
 }
 
-.b3-color__square[style*="color:var(--b3-font-color2)"]{
+.color__square[style*="color:var(--b3-font-color2)"]{
     color: transparent !important;
     background-color:#f8d3d5 !important;
     box-shadow:    0px 0px 2px hsl(345, 88%, 46%, 0.8),
                     0px 0px 3px hsla(342, 88%, 53%, 0.8);
 }
-.b3-color__square[style*="color:var(--b3-font-color3)"]{
+.color__square[style*="color:var(--b3-font-color3)"]{
     color: transparent !important;
     background-color:#f8d3d5 !important;
     box-shadow:    0px 0px 2px hsl(345, 88%, 46%),
                     0px 0px 3px hsl(342, 88%, 53%),
                     1px 1px 4px hsla(0, 100%, 73%, 0.829);
 }
-.b3-color__square[style*="color:var(--b3-font-color4)"]{
+.color__square[style*="color:var(--b3-font-color4)"]{
     background-color: var(--b3-font-color4);
 }
 
-.b3-color__square[style*="color:var(--b3-font-color5)"]{
+.color__square[style*="color:var(--b3-font-color5)"]{
     color: transparent !important;
     background-color:hsl(107, 74%, 90%) !important;
     box-shadow:    0px 0px 2px hsla(85, 90%, 34%, 0.8),
                     0px 0px 3px hsla(90, 88%, 53%, 0.3);
 }
-.b3-color__square[style*="color:var(--b3-font-color6)"]{
+.color__square[style*="color:var(--b3-font-color6)"]{
     color: transparent !important;
     background-color:hsl(89, 100%, 93%) !important;
     box-shadow:    0px 0px 0.1em hsl(91, 100%, 33%),
@@ -145,21 +145,21 @@
 }
 
 
-.b3-color__square[style*="color:var(--b3-font-color7)"]{
+.color__square[style*="color:var(--b3-font-color7)"]{
     color: transparent !important;
     background-color:hsl(197, 38%, 72%) !important;
     box-shadow:none !important;
 }
 
 
-.b3-color__square[style*="color:var(--b3-font-color8)"]{
+.color__square[style*="color:var(--b3-font-color8)"]{
     color: transparent !important;
     background-color:hsl(197, 100%, 94%) !important;
     box-shadow:    0px 0px 2px hsla(200, 90%, 34%, 1),
                     0px 0px 3px hsla(206, 88%, 53%, 1);
 }
 
-.b3-color__square[style*="color:var(--b3-font-color9)"]{
+.color__square[style*="color:var(--b3-font-color9)"]{
     color: transparent !important;
     background-color:hsl(197, 100%, 94%) !important;
     box-shadow:    0px 0px 1px hsl(206, 100%, 38%),
@@ -168,13 +168,13 @@
                     0px 0px 6px hsla(206, 100%, 65%, 0.85);
 }
 
-.b3-color__square[style*="color:var(--b3-font-color10)"]{
+.color__square[style*="color:var(--b3-font-color10)"]{
     color: transparent !important;
     background-color:hsl(265, 38%, 80%) !important;
     box-shadow:none !important;
 }
 
-.b3-color__square[style*="color:var(--b3-font-color11)"]{
+.color__square[style*="color:var(--b3-font-color11)"]{
     color: transparent !important;
     background-color:hsl(265, 74%, 90%) !important;
     box-shadow:    0px 0px 2px rgb(86, 0, 208),
@@ -182,7 +182,7 @@
 
 }
 
-.b3-color__square[style*="color:var(--b3-font-color12)"]{
+.color__square[style*="color:var(--b3-font-color12)"]{
     color: transparent !important;
     background-color:hsl(270, 100%, 97%) !important;
     box-shadow:    0px 0px 0.1em hsl(260, 100%, 39%),
@@ -190,13 +190,13 @@
                     0px 0px 0.3em hsla(265, 100%, 79%, 0.7);
 }
 
-.b3-color__square[style*="color:var(--b3-font-color13)"]{
+.color__square[style*="color:var(--b3-font-color13)"]{
     color: transparent !important;
     background-color:  transparent !important;
     box-shadow: inset 0 0 1px white;
 }
 
 
-.b3-color__square[data-type="color"]:hover {
+.color__square[data-type="color"]:hover {
     scale: 120%;
 }

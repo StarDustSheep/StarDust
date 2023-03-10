@@ -1,13 +1,32 @@
 /* 此处选择器来源于思源默认 */
-.protyle-wysiwyg [data-node-id] span[data-type~=block-ref], .protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]{
+.protyle-wysiwyg [data-node-id] span[data-type~=block-ref]{
     color: #bae392;
-    opacity: 0.90;
-    transition: var(--b3-transition);
-    text-shadow: 0 0 1px #d0ec51, 0 0 10px #75ffc291;
-    border-bottom: 0px solid #bae392;
+    opacity: 0.95;
+    transition: all 0.1s linear 0s;
+    text-shadow: 0 0 0.5px #d0ec51, 0 0 7px #75ffc2c2;
+    border-bottom: 1px solid transparent;
 }
 
 /* 悬浮状态下显示底部高亮线 */
-.protyle-wysiwyg [data-node-id] span[data-type~=block-ref]:hover, .protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]:hover{
+.protyle-wysiwyg [data-node-id] span[data-type~=block-ref]:hover{
+    opacity: 1;
     border-bottom: 1px solid #bae392;
+    text-shadow: 0 0 3px #748b0a, 0 0 8px #c5d86c, 0 0 10px #75ffc25c;
+}
+
+
+/* 文件引用 */
+.protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]{
+    color: #8fdbb2;
+    opacity: 0.95;
+    text-shadow: 0 0 0.5px #41ffc8, 0 0 8px #aeffdcc2;
+    border-bottom: 1px solid #aaf2d6;
+}
+
+
+.protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]:hover{
+    opacity: 1;
+    border-bottom: 1px solid #aaf2d6;
+    color: #aef4ce;
+    text-shadow: 0 0 3px #0ab583, 0 0 8px #88dfb969, 0 0 10px #aeffdcc2;
 }

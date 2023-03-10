@@ -2,6 +2,7 @@
 
 /* 主题修改部分root属性 */
 @import url("config/root_StarDust.css");
+@import url("config/root/PDF.css");
 
 @import url("部件修改/页签栏.css");
 @import url("部件修改/设置面板.css");
@@ -51,9 +52,11 @@
 @import url("样式修改/引用统计.css");
 @import url("样式修改/虚拟引用.css");
 @import url("样式修改/表格.css");
+@import url("样式修改/PDF.css");
 
 @import url("状态/拖拽块.css");
 @import url("状态/聚焦状态.css");
+
 
 
 /* 作者自用特色功能 */

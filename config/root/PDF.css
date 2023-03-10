@@ -1,0 +1,11 @@
+/* 修改PDF标记颜色，在其色相不变化多少的前提下，降低其明度，以和暗色界面搭配 */
+:root {
+    --b3-pdf-background1: hsl(6deg 23% 46%);
+    --b3-pdf-background2: hsl(25deg 34% 46%);
+    --b3-pdf-background3: hsl(45deg 30% 47%);
+    --b3-pdf-background4: hsl(107deg 19% 47%);
+    --b3-pdf-background5: hsl(166deg 18% 47%);
+    --b3-pdf-background6: hsl(208deg 21% 47%);
+    --b3-pdf-background7: hsl(0deg 0% 100% / 3%);
+    --b3-pdf-dark: #111d23;
+}
