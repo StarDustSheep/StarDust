@@ -12,3 +12,19 @@
 .dragover__left{
     box-shadow: -10px 0 0 var(--b3-theme-primary-lighter) !important;
 }
+
+/* 修复文档树中笔记本拖动无拖动条的问题 */
+.file-tree .dragover__bottom{
+    box-shadow: inset 0px -4px 0 var(--b3-theme-primary-lighter) !important;
+}
+.file-tree .dragover__top{
+    box-shadow: inset 0px 4px 0 var(--b3-theme-primary-lighter) !important;
+}
+
+.b3-list.b3-list--background:has(:first-child.b3-list-item.dragover__bottom[data-type="navigation-root"]){
+    box-shadow: 0px 4px 0 var(--b3-theme-primary-lighter) !important;
+}
+
+.b3-list.b3-list--background:has(:first-child.b3-list-item.dragover__top[data-type="navigation-root"]){
+    box-shadow: 0px -4px 0 var(--b3-theme-primary-lighter) !important;
+}
