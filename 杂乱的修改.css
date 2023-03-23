@@ -139,3 +139,25 @@ body {
 .b3-dialog__cardblock--hide span[data-type*="mark"]{
     text-shadow: none !important;
 }
+
+
+/* 侧边唤出面板 */
+.layout--float.layout__dockl{
+    background-color: #1b5f78;
+    border: none ;
+    box-shadow: 0px 0px 24px rgb(17 26 35);
+    border-radius: 8px;
+}
+
+/* 侧边唤出面板 */
+.layout--float.layout__dockr{
+    background-color: #1b5f78;
+    border: none ;
+    box-shadow: 0px 0px 24px rgb(17 26 35);
+    border-radius: 8px;
+}
+
+/* 引用统计 */
+.protyle-attr--refcount{
+    right: -16px;
+}

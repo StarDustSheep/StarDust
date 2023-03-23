@@ -14,7 +14,7 @@
 /* 用个鲜艳的颜色当作标题 再加个底边框以和正文分隔 */
 .protyle-title__input{
     color: rgb(92, 255, 255);
-    border-bottom: 1px solid #74b0b0;
+    border-bottom: 1px solid #65a9a9db;
     /* text-shadow: 2px 0px 2px rgba(0, 247, 255, 0.87); */
 }
 

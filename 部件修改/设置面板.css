@@ -14,6 +14,13 @@
     border-radius: 7px;
 }
 
+/* 为设置菜单中的配置区域设置内阴影，以增加层次感，和左边的导航区域区分开来  */
+.config__tab-container{
+    box-shadow: inset 1px 0px 15px #111212a6;
+}
+
+
+
 /* 增强设置面板关闭按钮的可见性 */
 .b3-dialog__container .b3-dialog__close{
     right: -41px;
