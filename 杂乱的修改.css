@@ -161,3 +161,9 @@ body {
 .protyle-attr--refcount{
     right: -16px;
 }
+
+
+/* https://github.com/StarDustSheep/StarDust/issues/3 */
+.b3-select:hover{
+    background-color: #192d3a;
+}
