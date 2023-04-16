@@ -1,7 +1,7 @@
 This is a stylized theme for <a href="https://github.com/siyuan-note/siyuan">SiYuan-note</a>
 # StarDust
 I noticed that there were very few night themes in SiYuan Note, and the few that were there were basically just black and grey interface colours. I thought to myself, "It's too homogeneous, it's not interesting." This gave me the idea to make a theme that would give a cosmic, starry sky feel. So I made StarDust and modified a lot of parts of the software without adding any special features, in order to give the user a different note taking experience.<br>
-<img title="Default appearance" src="https://user-images.githubusercontent.com/114859111/227120881-1165599f-dd74-41a9-890a-4aa0093e6005.png" height="260px"><br>Background image added in version 0.5.5, enabled by default. Author: <a href="https://www.artstation.com/starkiteckt">Starkiteckt</a><br>If you don't need a background image, please open theme.css in the theme folder and add /* and */ on either side of "@import url("布局/背景图.css");"
+<img title="Default appearance" src="https://user-images.githubusercontent.com/114859111/227120881-1165599f-dd74-41a9-890a-4aa0093e6005.png" height="260px"><br>Background image added in version 0.5.5, enabled by default. Author: <a href="https://www.artstation.com/starkiteckt">Starkiteckt</a><br>If you don't need a background image, please open theme.css in the theme folder and add /\* and \*/ on either side of "@import url("布局/背景图.css");"
 
 
 <img src="https://user-images.githubusercontent.com/114859111/227120779-9d6760da-d7e0-4d3e-96b4-591cceab6d30.png" height="260px"><br>
