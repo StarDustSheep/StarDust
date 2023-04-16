@@ -1,13 +1,15 @@
 这是一款<a href="https://github.com/siyuan-note/siyuan">思源笔记</a>的风格化夜间主题<br>
 This is a stylized theme for <a href="https://github.com/siyuan-note/siyuan">SiYuan-note</a>
+
+<a href="https://github.com/StarDustSheep/StarDust/blob/main/README_EN.md">English Readme</a>
+
 # StarDust
 我发现思源笔记中夜间主题很少，有的那几个也基本上就是黑灰的界面颜色。我心想：“这怎么能行呢？风格太单一了，没意思” 这让我萌生了做一个能给人带来宇宙、星空感觉的主题的想法。于是我做出了StarDust这个主题，在不添加任何特殊功能的的标准上修改了软件中不少地方的样式，以图能带给使用者不一样的笔记体验。<br>
-<div align="center"><img title="默认外观" src="https://user-images.githubusercontent.com/114859111/227120881-1165599f-dd74-41a9-890a-4aa0093e6005.png" height="260px"><br>0.5.5版本新增了背景图，默认启用    作者：<a href=https://www.artstation.com/starkiteckt">Starkiteckt</a><br>如不需要背景图，请打开主题文件夹中的theme.css，在"@import url("布局/背景图.css");"两边上加/*和*/</div>
+<img title="默认外观" src="https://user-images.githubusercontent.com/114859111/227120881-1165599f-dd74-41a9-890a-4aa0093e6005.png" height="260px"><br>0.5.5版本新增了背景图，默认启用    作者：<a href="https://www.artstation.com/starkiteckt">Starkiteckt</a><br>如不需要背景图，请打开主题文件夹中的theme.css，在"@import url("布局/背景图.css");"两边上加/\*和\*/
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/114859111/227120779-9d6760da-d7e0-4d3e-96b4-591cceab6d30.png" height="260px"><br>
-  不使用背景图
-</div>
+<img src="https://user-images.githubusercontent.com/114859111/227120779-9d6760da-d7e0-4d3e-96b4-591cceab6d30.png" height="260px"><br>
+不使用背景图
+
 
 ## 样式展示
 ### 字色&底色
