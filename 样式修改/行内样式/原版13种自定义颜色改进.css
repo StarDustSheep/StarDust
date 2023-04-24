@@ -1,6 +1,6 @@
 /* 蓝色系 字色 重要程度中  */
 [style="color: var(--b3-font-color6);"] {
-    opacity: 88%;
+    opacity: 100%;
     color:hsl(197, 100%, 94%) !important;
     text-shadow:    0px 0px 2px hsla(200, 90%, 34%, 1),
                     0px 0px 3px hsla(206, 88%, 53%, 1);
@@ -13,7 +13,7 @@
 }
 
 [style="color: var(--b3-font-color8);"] {
-    opacity: 97%;
+    opacity: 96%;
     color: #ff9299 !important;
     text-shadow: 0px 0px 2px hsl(345deg 88% 46%), 0px 0px 4px hsl(342deg 92% 62% / 80%);
 }
@@ -23,7 +23,6 @@
     color: #ffbce0!important;
     text-shadow: 0px 0px 2px hsl(325deg 81% 41%), 0px 0px 3px hsl(308deg 88% 53%);
 }
-
 
 [style="color: var(--b3-font-color10);"] {
     opacity: 88%;
@@ -44,11 +43,11 @@
 }
 
 [style="color: var(--b3-font-color13);"] {
-    color: transparent !important;
+    color: white !important;
 }
 
 [style="background-color: var(--b3-font-background13);"] {
-    color: transparent !important;
+    /* color: transparent !important; */
 }
 
 span[style="background-color: var(--b3-font-background13);"]:hover {

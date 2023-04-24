@@ -68,15 +68,9 @@
 }
 
 /* 设置第13个背景色为挖空\填空效果 */
-/* [style*="background-color: var(--b3-font-background13);"] {
-    color: transparent !important;
-    background-color: transparent !important;
-    border-bottom: 2px solid gray !important;
-    border-radius: var(--border-radius-none) !important;
-    font-weight: 400 !important;
-    transition: color 0.1s ease-in-out;
-} */
+[style*="background-color: var(--b3-font-background13);"] {
 
+}
 /* 当鼠标放在隐藏文字上方时显示文字 */
 [style*="background-color: var(--b3-font-background13);"]:hover {
     color: inherit !important;
@@ -125,11 +119,8 @@
     background-color: hsl(274deg 57% 69%) !important;
 }
 .color__square[style*="background-color:var(--b3-font-background12)"]{
-    background-color: hsl(358deg 51% 72%) !important;
-}
-.color__square[style*="background-color:var(--b3-font-background12)"]{
     background-color: rgb(190, 106, 255) !important;
 }
-/* .color__square[background-color="var(--b3-font-background13)"]{
-    background-color: hsl(358deg 51% 72%);
-} */
+.color__square[style*="background-color=var(--b3-font-background13)"]{
+    background-color: hsl(358deg 51% 72%) !important;
+}

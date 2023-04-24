@@ -1,5 +1,5 @@
 /* 此文件中代码必须要在“块引用搜索”之后 */
-.hint--menu.protyle-hint.b3-list.b3-list--background {
+.hint--menu.protyle-hint.b3-list.b3-list--background:not(.hint--menu:has(.emojis)) {
     column-count: 4;
     column-width: 20px !important;
     column-gap: 5px;

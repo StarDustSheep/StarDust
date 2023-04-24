@@ -167,3 +167,18 @@ body {
 .b3-select:hover{
     background-color: #192d3a;
 }
+
+/* 块图标平滑移动 */
+.protyle-gutters {
+    transition: all 200ms ease-out;
+}
+
+@keyframes highlight {
+    from { background-color: yellow !important; }
+    to { background-color: transparent !important; }
+}
+
+.highlight {
+    animation: highlight 1s;
+    animation-fill-mode: forwards;
+}

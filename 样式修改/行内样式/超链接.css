@@ -13,3 +13,19 @@
     text-shadow: 0 0 3px #63bbff, 0 0 8px #5793e5d1, 0 0 10px #00b6ff;
     border-bottom: 1px solid #a2eeff;
 }
+
+
+/* 如果链接指向本地assets文件夹，则使用不同风格样式 */
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="assets/"]{
+    color: #8fdbb2;
+    opacity: 0.95;
+    text-shadow: 0 0 0.5px #41ffc8, 0 0 8px #aeffdcc2;
+    border-bottom: 1px solid #aaf2d6;
+}
+
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="assets/"]:hover{
+    opacity: 1;
+    border-bottom: 1px solid #aaf2d6;
+    color: #aef4ce;
+    text-shadow: 0 0 3px #0ab583, 0 0 8px #88dfb969, 0 0 10px #aeffdcc2;
+}
