@@ -93,3 +93,26 @@
     background-position:left bottom;
     background-repeat: no-repeat;
 }
+
+
+/* 列表块中的标题图标位置不太对，手动调整一下 */
+
+.list .h1>:first-child::before{
+    bottom: 0.1rem;
+}
+
+.list .h2>:first-child::before{
+    bottom: 0.2rem;
+}
+
+.list .h3>:first-child::before{
+    bottom: 0.2rem;
+}
+
+.list .h5>:first-child::before {
+    bottom: 0.5rem;
+}
+
+.list .h6>:first-child::before {
+    bottom: 0.57rem;
+}
