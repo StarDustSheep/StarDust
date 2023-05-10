@@ -2,7 +2,31 @@
   "name": "StarDust",
   "author": "StarDustSheep",
   "url": "https://github.com/StarDustSheep/StarDust",
-  "version": "0.5.13",
+  "version": "0.6.0",
+  "displayName": {
+    "default": "StarDust",
+    "zh_CN": "星尘"
+  },
+  "description": {
+    "default": "This is a stylized theme. Maybe it can give you the feeling of the universe and the night sky",
+    "zh_CN": "这是一个风格化主题。或许能给你带来宇宙和夜空的感觉。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "i18n": [
+    "en_US",
+    "zh_CN"
+  ],
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": [
+      "https://afdian.net/a/StarDustSheep"
+    ]
+  },
   "modes": [
     "dark"
   ]

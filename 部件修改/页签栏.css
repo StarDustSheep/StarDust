@@ -25,7 +25,7 @@
 
 /* 将当前正在查看/编辑的页签 的文字改为发光样式 以提高显眼度 以易于视觉上和其他页签区分 */
 .layout__wnd--active .layout-tab-bar .item--focus>.item__text {
-    color: hsl(188deg 100% 77%);
+    color: hsl(188deg 100% 77%) !important;
     text-shadow: 0 0 9px #00cee1;
     font-weight: 500;
     /* font-family: "微软雅黑" !important; */
