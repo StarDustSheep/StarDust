@@ -12,40 +12,40 @@
 /* 标题前图标 */
 .h1 > :first-child::before{
     background: url('../icon/title/h1.svg');
-    left: 0.3rem;
-    bottom: 0.62rem;
+    left: 0em;
+    bottom: 0.35em;
 }
 .h1 > :first-child{
-    padding-left: 1.6rem;
+    padding-left: 0.8em;
 }
 
 
 
 .h2 > :first-child::before{
     background: url('../icon/title/h2.svg');
-    left: 0.3rem;
-    bottom: 0.6rem;
+    left: 0.05em;
+    bottom: 0.35em;
 }
 .h2 > :first-child{
-    padding-left: 1.6rem;
+    padding-left: 0.9em;
 }
 
 .h3 > :first-child::before{
     background: url('../icon/title/h3.svg');
-    left: 0.32rem;
-    bottom: 0.34rem;
+    left: 0.09em;
+    bottom: 0.2em;
 }
 .h3 > :first-child{
-    padding-left: 1.6rem;
+    padding-left: 1.02em;
 }
 
 .h4 > :first-child::before{
     background: url('../icon/title/h4.svg');
-    left: 0.35rem;
-    bottom: 0.4rem;
+    left: 0.15em;
+    bottom: 0.2em;
 }
 .h4 > :first-child{
-    padding-left: 1.6rem;
+    padding-left: 1.12em;
 }
 /* 防止标题折叠后右侧圆点标示和小三角图标对不齐 */
 .protyle-wysiwyg div[fold="1"][data-type=NodeHeading].h4:before{
@@ -55,11 +55,11 @@
 
 .h5 > :first-child::before{
     background: url('../icon/title/h5.svg');
-    left: 0.37rem;
-    bottom: 0.55rem;
+    left: 0.2em;
+    bottom: 0.35em;
 }
 .h5 > :first-child{
-    padding-left: 1.6rem;
+    padding-left: 1.24em;
 }
 /* 防止标题折叠后右侧圆点标示和小三角图标对不齐 */
 .protyle-wysiwyg div[fold="1"][data-type=NodeHeading].h5:before{
@@ -69,11 +69,11 @@
 
 .h6 > :first-child::before{
     background: url('../icon/title/h6.svg');
-    left: 0.39rem;
-    bottom: 0.68rem;
+    left: 0.25em;
+    bottom: 0.56em;
 }
 .h6 > :first-child{
-    padding-left: 1.6rem;
+    padding-left: 1.4em;
 }
 /* 防止标题折叠后右侧圆点标示和小三角图标对不齐 */
 .protyle-wysiwyg div[fold="1"][data-type=NodeHeading].h6:before{
