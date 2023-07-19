@@ -1,14 +1,32 @@
-.bq {
-    background-color: hsl(200deg 6% 63% / 42%) !important;
+.b3-typography blockquote, .b3-typography .bq, .protyle-wysiwyg blockquote, .protyle-wysiwyg .bq {
+    background-color: hsl(200deg 6% 63% / 42%) ;
     border-radius: 5px;
-    border-color: #6189a0 !important;
-    border-width: 3px 0 0 0 !important;
-    border-style: solid !important;
+    border-color: #6189a0 ;
+    border-width: 0 ;
+    border-style: solid ;
     box-shadow: 0px 0px 0px 0px #ffffff;
-    color: #bccdcff0 !important;
-    font-family: "仓耳今楷03","楷体";
-    position: relative;
+    color: #bccdcff0 ;
+    font-family: "仓耳今楷03";
 }
+
+.bq::before {
+    content: "";
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
+    background-color: #ff000000;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-color: rgb(161 161 161 / 40%);
+    border-width: 1px;
+    border-style: solid;
+    pointer-events: none;
+    border-radius: 5px;
+}
+
+
 
 /* 装饰计划 */
 .bq::after{
@@ -18,4 +36,9 @@
     position: absolute;
     border-radius: 50%;
     /* background-color: red; */
+}
+
+/* 增大内边距以防止引述块中嵌套超级块时超级块卡片样式突破边界 */
+.b3-typography blockquote, .b3-typography .bq, .protyle-wysiwyg blockquote, .protyle-wysiwyg .bq{
+    padding: 8px;
 }

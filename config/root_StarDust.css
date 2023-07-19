@@ -28,6 +28,9 @@
 
     --b3-card-info-color:hsl(178deg 34% 67%);
     --b3-card-info-background: hsl(192deg 25% 58% / 36%);
+    --b3-border-radius: 4px;
+    --b3-border-radius-b: 4px;
+    --b3-border-color: #143539;
 
     
     /* 自定义字色 */
@@ -42,7 +45,8 @@
     --b3-font-background13: #909ba0;
     
 
-    --b3-tooltips-color:#218299;
+    --b3-tooltips-color:white;
+    --b3-tooltips-background: #39acc9;
     --b3-toolbar-hover:#2dafc5;
     /* 行级内标记背景色 */
     --b3-protyle-inline-mark-background: rgb(116 164 152);

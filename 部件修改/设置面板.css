@@ -22,14 +22,16 @@
 
 
 /* 增强设置面板关闭按钮的可见性 */
-.b3-dialog__container .b3-dialog__close{
-    right: -41px;
+.b3-dialog__container .b3-dialog__close {
+    right: -35px;
+    top: -3px;
     height: 20px;
     width: 20px;
     background-color: #196683;
     padding: 9px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    opacity: 1;
 }
 
 /* 集市中 主题名 样式 */

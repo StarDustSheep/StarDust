@@ -182,3 +182,10 @@ body {
     animation: highlight 1s;
     animation-fill-mode: forwards;
 }
+
+
+
+
+.b3-label{
+    border-bottom: 1px solid #3f585b;
+}

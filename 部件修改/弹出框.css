@@ -2,3 +2,14 @@
     width: 45vw;
     min-height: 20em;
 }
+
+
+
+.block__popover{
+    border: 3px solid var(--b3-list-hover);
+    border-radius: 0.5em;
+}
+
+.block__popover>.block__icons{
+    border-radius: 0;
+}

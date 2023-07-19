@@ -1,5 +1,5 @@
 /* 为超级块设置边框、底色、顶部颜色识别区、底部间距*/
-.protyle-wysiwyg [data-node-id].sb {
+/* .protyle-wysiwyg [data-node-id].sb {
     background-color: hsl(202deg 28% 30%);
     box-shadow: rgba(21, 37, 53, 0.56) 0px 0px 0.6rem;
     border-radius: 6px;
@@ -7,7 +7,7 @@
     margin-bottom: 1em;
     border-top-style: groove;
     border-top-color: #1ecde4cf;
-}
+} */
 
 
 
@@ -21,4 +21,20 @@
     background-color: #fffef900;
     border: none;
     outline: none;
+}
+
+
+/* 新版超级块卡片样式 */
+.protyle-wysiwyg [data-node-id].sb {
+    background-color: hsl(202deg 28% 30%);
+    box-shadow: 0 0 0 0.12em #50bdcbbf, rgb(12 33 54 / 75%) 0px 0px 0.1em 0.2rem;
+    border-radius: 0.4em;
+    padding: 0.1em 0.2em 0.1em 0.3em;
+    margin-bottom: 0.6em;
+}
+
+
+/* 让超级块中的超级块的边距稍微窄一点 */
+.protyle-wysiwyg [data-node-id].sb[data-sb-layout=col]>div{
+    margin-right: 0.4em;
 }
