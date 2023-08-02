@@ -11,8 +11,8 @@
 
 .bq::before {
     content: "";
-    height: calc(100% - 8px);
-    width: calc(100% - 8px);
+    height: calc(100% - 0.9em);
+    width: calc(100% - 0.8em);
     background-color: #ff000000;
     display: block;
     top: 50%;
@@ -20,7 +20,7 @@
     transform: translate(-50%,-50%);
     position: absolute;
     border-color: rgb(161 161 161 / 40%);
-    border-width: 1px;
+    border-width: 0.1em;
     border-style: solid;
     pointer-events: none;
     border-radius: 5px;
