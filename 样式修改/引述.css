@@ -9,10 +9,10 @@
     font-family: "仓耳今楷03";
 }
 
-.bq::before {
+[data-type="NodeBlockquote"].bq::before {
     content: "";
-    height: calc(100% - 0.9em);
-    width: calc(100% - 0.8em);
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
     background-color: #ff000000;
     display: block;
     top: 50%;
@@ -20,7 +20,7 @@
     transform: translate(-50%,-50%);
     position: absolute;
     border-color: rgb(161 161 161 / 40%);
-    border-width: 0.1em;
+    border-width: 1px;
     border-style: solid;
     pointer-events: none;
     border-radius: 5px;
@@ -28,17 +28,19 @@
 
 
 
+
+
 /* 装饰计划 */
-.bq::after{
+/* [data-type="NodeBlockquote"].bq::after{
     content: "";
     width: 1em;
     height:1em;
     position: absolute;
     border-radius: 50%;
-    /* background-color: red; */
-}
+} */
 
 /* 增大内边距以防止引述块中嵌套超级块时超级块卡片样式突破边界 */
 .b3-typography blockquote, .b3-typography .bq, .protyle-wysiwyg blockquote, .protyle-wysiwyg .bq{
-    padding: 8px;
+    padding: 0.4em !important;
+    position: relative;
 }

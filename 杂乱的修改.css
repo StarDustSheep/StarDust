@@ -189,3 +189,10 @@ body {
 .b3-label{
     border-bottom: 1px solid #3f585b;
 }
+
+
+
+/* 调小设置按钮圆角以符合直角设计风格 */
+.toolbar__item{
+    border-radius:0.2em;
+}

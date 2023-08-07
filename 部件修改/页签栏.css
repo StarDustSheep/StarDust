@@ -46,7 +46,6 @@
 /* 修改页签最小宽度，防止其过窄 */
 .item__text{
     min-width: 6em;
-    padding-left: 16px !important;
 }
 
 

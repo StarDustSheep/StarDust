@@ -1,0 +1,11 @@
+.item--pin::before{
+    content: "";
+    height: 71%;
+    width: 89%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    border: 0.1em #79cdd85e solid;
+    pointer-events: none;
+}

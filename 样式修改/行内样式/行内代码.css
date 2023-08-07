@@ -7,7 +7,7 @@
     line-height: 100%;
     border-radius: 5px;
     font-family: var(--b3-font-family-code);
-    padding: 0.3rem 0.3rem 0.15rem 0.3rem;
+    padding: 0.3em 0.3em 0.15em 0.3em;
     text-shadow: 0 0 1px #11a4bfe3, #5dd5e8c7 1px 1px 6px;
     box-shadow: 0px 3px 5px #0b0f10 inset;
     border-bottom: 1.5px solid #ade2e269;
